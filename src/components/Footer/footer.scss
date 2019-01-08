@@ -1,0 +1,30 @@
+@import 'src/styles/_vars';
+
+#footer {
+  margin-top: 15vh;
+  width: 100%;
+  background-color: $footer-bg;
+  padding: 1em 0;
+}
+
+.footer-language {
+
+  display: flex;
+  justify-content: center;
+  
+  & img {
+    padding: 0 10px;
+    width: 60px;
+    height: 45px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+} 
+
+.footer-text {
+  text-align: center;
+  color: white;
+  padding: .2em;
+}

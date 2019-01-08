@@ -1,0 +1,101 @@
+@import 'src/styles/_vars';
+
+#biographie {
+  max-width: 55em;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em 0;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.div-img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-biographie {
+  width: 250px;
+  margin-top: -80px;
+  border-radius: 50%;
+}
+
+.bio-img {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+}
+
+.span-bio_img {
+  font-weight: 700;
+}
+
+.bio-icon {
+  height: 4em;
+  width: 4em;
+  padding: .2em;
+}
+
+.code-icon {
+  color: #22b648;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.avion-icon {
+  color: #df7f09;
+}
+
+.bio-p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  margin-bottom: 3em;
+}
+
+.oclock-a {
+  color: red;
+
+  &:hover {
+    color: darken(red, 15%);
+  }
+}
+
+.react-span {
+  color: #61dafb;
+}
+
+.soleil-span {
+  color: #cad712;
+}
+
+@media (max-width: 1000px) {
+  #biographie {
+    border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .bio-icon {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .bio-p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .bio-img {
+    text-align: center;
+  }
+}

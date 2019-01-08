@@ -1,0 +1,79 @@
+@import 'src/styles/_vars';
+
+#header {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-around;
+
+  .slider {
+    display: block;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    transition: .8s;
+  }
+  
+  .title {
+    font-size: 3.5em;
+    text-align: center;
+    background-color: white;
+  
+    &:hover + .slider{
+      width: 100%;
+    }
+  }
+  
+  .social-icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #000;
+    transition: .4s;
+  
+    &:hover {
+      color: #fff;
+    }
+  
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000;
+      border-radius: 50%;
+      z-index: -1;
+      transform: scale(0);
+      transition: .4s;
+    }
+  
+    &:hover:after {
+      transform: scale(1);
+    }
+  }
+  
+  .twitter-icon:hover:after {
+    background-color: #1da1f2;
+  }
+  .facebook-icon:hover:after {
+    background-color: #4267b2;
+  }
+  
+  .linkedin-icon:hover:after {
+    background-color: #069;
+  }
+  
+  .github-icon:hover:after {
+    background-color: #24292e;
+  }
+}
+

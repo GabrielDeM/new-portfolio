@@ -1,0 +1,93 @@
+@import 'src/styles/_vars';
+
+.nav-div {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 55em;
+  height: 37em;
+}
+
+.nav-link, .nav-link img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-link {
+  overflow: hidden;
+  position: absolute;
+  transform: skewX(-55.98deg);
+
+  &:first-child {
+    left: -.25em;
+    transform-origin: 100% 0;
+  }
+
+  &:last-child {
+    right: -.25em;
+    transform-origin: 0 100%;
+  }
+
+  & img {
+    opacity: .75;
+  }
+
+  & img, &:after {
+    transform: skewX(55.98deg);
+    transform-origin: inherit;
+  }
+
+  & img:hover {
+    opacity: 1;
+  }
+
+  &:after {
+    content: attr(data-inf);
+    position: absolute;
+    margin: .5em 1.65em;
+    color: $data-nav-color;
+    font: 500 2.25em Courier;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  &:first-child:after {
+    top: 0;
+    left: 0;
+  }
+
+  &:last-child:after {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 30em;
+    height: 20em;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 25em;
+    height: 17em;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 400px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 15em;
+    height: 10em;
+  }
+}
