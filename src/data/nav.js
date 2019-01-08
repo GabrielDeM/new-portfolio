@@ -1,3 +1,6 @@
+import Gabriel from './images/Gabriel.JPG'
+import Code from './images/ligne-de-code.jpg'
+
 export default 
 {
   en: [
@@ -5,13 +8,13 @@ export default
       id: 1,
       name: 'Bio',
       route: '/bio',
-      img: 'https://i.imgur.com/kIakt5d.jpg',
+      img: Gabriel,
     },
     {
       id: 2,
       name: 'Skills',
       route: '/skills',
-      img: 'https://i.imgur.com/Og3EF9S.jpg',
+      img: Code,
     },
   ],
   fr: [
@@ -19,13 +22,13 @@ export default
       id: 1,
       name: 'Bio',
       route: '/bio',
-      img: 'https://i.imgur.com/kIakt5d.jpg',
+      img: Gabriel,
     },
     {
       id: 2,
       name: 'Compétences',
-      route: '/competences',
-      img: 'https://i.imgur.com/Og3EF9S.jpg',
+      route: '/skills',
+      img: Code,
     },
   ],
 }

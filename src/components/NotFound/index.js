@@ -14,11 +14,11 @@ import './notfound.scss';
 /**
  * Code
  */
-const NotFound = () => (
+const NotFound = ({ language }) => (
   <div id="notfound">
     <Retour />
     <div className="flex-div">
-      <div className="error-text">Page non trouvée :/</div>
+      <div className="error-text">{language === 'fr' ? 'Page non trouvée :/' : 'Page not found :/'}</div>
     </div>
   </div>
 );

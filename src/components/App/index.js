@@ -47,7 +47,7 @@ class App extends Component {
             {/* Compétences */}
             <Route exact path="/skills" render={() => <Competences language={language} />} />
             {/* Page not found */}
-            <Route component={NotFound} />
+            <Route render={() => <NotFound language={language} />} />
           </Switch>
           <Footer language={language} changeLanguage={this.changeLanguage} />
         </div>
