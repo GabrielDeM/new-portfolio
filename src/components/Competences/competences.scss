@@ -112,4 +112,16 @@
   #competences {
     border: none;
   }
+
+}
+
+@media (max-width: 450px) {
+  .competence-level {
+    padding: .5em .5em;
+    margin-right: .3em;
+    background-color: #dee4ff;
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+  }
 }
