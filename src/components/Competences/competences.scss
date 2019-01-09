@@ -2,7 +2,7 @@
 
 #competences {
   max-width: 55em;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   background-color: white;
   padding: 1em 0;
   border-left: 1px solid red;
@@ -116,6 +116,20 @@
 }
 
 @media (max-width: 450px) {
+
+  #competences {
+    padding: 0 .5em;
+  }
+
+  .competence-resume {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  .competences-icons {
+    font-size: 7rem;
+  }
+
   .competence-level {
     padding: .5em .5em;
     margin-right: .3em;
