@@ -26,7 +26,7 @@ const Footer = ({ changeLanguage, language }) => (
       <img onClick={changeLanguage} src={britainFlag} alt="en"/>
     </div>
     <div className="footer-text">Gabriel De Moura &#169; 2019</div>
-    <div className="footer-text">Tel: +336 21 06 63 25</div>
+    <div className="footer-text">Tel: {language === 'fr' ? '06 21 06 63 25' : '+336 21 06 63 25'}</div>
     <div className="footer-text">Email: gabrielmouracanto@hotmail.com</div>
     <div className="footer-text">{footerText[language]}</div>
   </div>
