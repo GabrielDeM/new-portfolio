@@ -6,7 +6,7 @@ import Parser from 'html-react-parser';
 import {
   FaCode,
   FaReact,
-  FaPlaneDeparture,
+  FaPlane,
 } from 'react-icons/fa';
 /**
  * Local import
@@ -43,8 +43,8 @@ const Biographie = ({ language }) => (
       <FaReact className=" bio-icon react-icon" />
       {Parser(textData[language].react)}
     </p>
-    <p className="bio-p asd">
-      <FaPlaneDeparture className=" bio-icon avion-icon" />
+    <p className="bio-p">
+      <FaPlane className=" bio-icon plane-icon" />
       {Parser(textData[language].voyage)}
     </p>
   </div>

@@ -48,9 +48,10 @@
 
 .react-icon {
   color: #61dafb;
+  animation: reactIconRotate 10s linear infinite;
 }
 
-.avion-icon {
+.plane-icon {
   color: #df7f09;
 }
 
@@ -97,5 +98,15 @@
 @media (max-width: 400px) {
   .bio-img {
     text-align: center;
+  }
+}
+
+@keyframes reactIconRotate {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
   }
 }
