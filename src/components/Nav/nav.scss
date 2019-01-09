@@ -17,6 +17,12 @@
   overflow: hidden;
   position: absolute;
   transform: skewX(-55.98deg);
+  opacity: .75;
+  transition: opacity .5s;
+
+  &:hover {
+    opacity: 1;
+  }
 
   &:first-child {
     left: -.25em;
@@ -28,18 +34,9 @@
     transform-origin: 0 100%;
   }
 
-  & img {
-    opacity: .75;
-  }
-
   & img, &:after {
     transform: skewX(55.98deg);
     transform-origin: inherit;
-  }
-
-  & img:hover {
-    opacity: 1;
-    transform: skewX(55.98deg);
   }
 
   &:after {
