@@ -30,9 +30,11 @@ const Header = () => (
     </a>
     <Link
       to="/"
+      className="link-header"
     >
       <h1 className="title">Gabriel De Moura</h1>
       <span className="slider" />
+      <h2 className="sub-title">Front-End Developer</h2>
     </Link>
     <a href="https://www.linkedin.com/in/gabriel-de-moura/" className="social-icons linkedin-icon">
       <FaLinkedin className="" />
