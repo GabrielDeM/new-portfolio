@@ -1,3 +1,3 @@
 ## Portfolio
 
-This is the project for my website portfolio: http://gabrieldemoura.com
+This is the project of my website portfolio: http://gabrieldemoura.com
