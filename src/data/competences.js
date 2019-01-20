@@ -1,8 +1,8 @@
 export default {
 	htmlcssResume:
-		'Linux, Windows, Git, Integration, Opquast, SEO, Responsive, Bootstrap, Bulma, Flex, Grid, ...',
+		'Linux, Windows, Git, Integration, Opquast, SEO, Responsive, Animation, Transition,  Bootstrap, Bulma, Flex, Grid, ...',
 	jsResume:
-		'ES6, Express, Passport.js, JQuery, Vanilla, JSX, State, Lifecycles, TDD, React-Redux, Webpack, Babel, React-Router, Socket,  Axios, Reducers, MiddleWare, Sass, Functional Programming, Enzyme, Jest, Mocha, Chai, ...',
+		'ES6, Express, JQuery, Vanilla, JSX, State, Lifecycles, TDD, React-Redux, Webpack, Babel, React-Router, Socket,  Axios, Reducers, MiddleWare, Functional Programming, Enzyme, Jest, Mocha, Chai, ...',
 	phpResume:
 		'Apache, PHPMyAdmin, POO, MVC, PDO, Altorouter, Namespace, Plates, Composer, ...',
 
@@ -15,6 +15,11 @@ export default {
 		{
 			id: 2,
 			name: 'css',
+			niv: 7
+		},
+		{
+			id: 3,
+			name: 'sass',
 			niv: 7
 		}
 	],
@@ -33,6 +38,11 @@ export default {
 			id: 3,
 			name: 'mongoose.js',
 			niv: 6
+		},
+		{
+			id: 4,
+			name: 'passport.js',
+			niv: 8
 		}
 	],
 	php: [
