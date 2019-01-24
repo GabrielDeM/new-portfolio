@@ -2,7 +2,7 @@ export default {
 	htmlcssResume:
 		'Linux, Windows, Git, Integration, Opquast, SEO, Responsive, Animation, Transition,  Bootstrap, Bulma, Flex, Grid, ...',
 	jsResume:
-		'ES6, Express, JQuery, Vanilla, JSX, State, Lifecycles, TDD, React-Redux, Webpack, Babel, React-Router, Socket,  Axios, Reducers, MiddleWare, Functional Programming, Enzyme, Jest, Mocha, Chai, ...',
+		'ES6, Express, JQuery, Vanilla, JSX, State, Lifecycles, TDD, Redux, React-Redux, Redux-Thunk, Webpack, Babel, React-Router, Socket, Axios, Ajax, Reducers, MiddleWare, Functional Programming, Enzyme, Jest, Mocha, Chai, ...',
 	phpResume:
 		'Apache, PHPMyAdmin, POO, MVC, PDO, Altorouter, Namespace, Plates, Composer, ...',
 
