@@ -2,7 +2,6 @@
  * NPM import
  */
 import React from 'react';
-
 /**
  * Local import
  */
@@ -15,12 +14,14 @@ import './notfound.scss';
  * Code
  */
 const NotFound = ({ language }) => (
-  <div id="notfound">
-    <Retour />
-    <div className="flex-div">
-      <div className="error-text">{language === 'fr' ? 'Page non trouvée :/' : 'Page not found :/'}</div>
-    </div>
-  </div>
+	<div id="notfound">
+		<Retour />
+		<div className="flex-div">
+			<div className="error-text">
+				{language === 'fr' ? 'Page non trouvée :/' : 'Page not found :/'}
+			</div>
+		</div>
+	</div>
 );
 
 /**

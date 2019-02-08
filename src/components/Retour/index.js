@@ -18,14 +18,14 @@ import './retour.scss';
  * Code
  */
 const Retour = ({ language }) => (
-  <div id="retour">
-    <Link
-      to="/"
-    >
-      <FaChevronLeft className="chevron-icon" />
-      <span className="retour-text">{language === 'fr' ? 'Accueil' : 'Home'}</span>
-    </Link>
-  </div>
+	<div id="retour">
+		<Link to="/">
+			<FaChevronLeft className="chevron-icon" />
+			<span className="retour-text">
+				{language === 'fr' ? 'Accueil' : 'Home'}
+			</span>
+		</Link>
+	</div>
 );
 
 /**
